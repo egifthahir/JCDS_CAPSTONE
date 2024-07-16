@@ -5,17 +5,18 @@ Submit Capstone JCDS
 
 	Sistem Manajemen Pasien Rumah Sakit Darurat PMI
 
-- Deskripsi 
+# Deskripsi
 
-	Sistem Manajemen Pasien adalah aplikasi sederhana yang dirancang menggunakan tampilan baris perintah atau Command-Line Interface(CLI) untuk mengelola data pasien di lingkungan perawatan kesehatan. Aplikasi ini memungkinkan pengguna untuk membuat, membaca, memperbaharui, dan menghapus rekam data pasien dengan efisien.
+Sistem Manajemen Pasien adalah aplikasi sederhana yang dirancang menggunakan tampilan baris perintah atau Command-Line Interface(CLI) untuk mengelola data pasien di lingkungan perawatan kesehatan. Aplikasi ini memungkinkan pengguna untuk membuat, membaca, memperbaharui, dan menghapus rekam data pasien dengan efisien.
 
-- Fitur 
+# Fitur 
+
 - Create: Membuat rekam data pasien baru. 
 - Read: Menampilkan rekam data pasien.
 - Update: Memperbaharui rekam data pasien.
 - Delete: Menghapus rekam data pasien dari sistem.
 
-- Cakupan Data 
+# Cakupan Data
 
 Setiap rekam data pasien mencakup beberapa data, sebagai berikut:
 
@@ -27,7 +28,7 @@ Setiap rekam data pasien mencakup beberapa data, sebagai berikut:
  - DIAGNOSIS: Hasil pemeriksaan gejala pasien.
  - ADMISI: Tanggal pasien mulai diopname (format: DD-MM-YYYY).
 
-- Validasi Input Data 
+# Validasi Input Data 
 
 Aplikasi ini memiliki validasi input data yang mencakup berbagai hal guna menjaga integritas data:
 
@@ -40,7 +41,7 @@ Aplikasi ini memiliki validasi input data yang mencakup berbagai hal guna menjag
 	 Jika USIA menghasilkan ERROR maka data pasien tidak dapat disimpan.
  - CHECK: Harus memasukkan "YA" atau "TIDAK".
 
-- Contoh 
+# Contoh 
 
 	TAMBAHKAN DATA PASIEN BARU
 	NRM: 1401
@@ -50,6 +51,6 @@ Aplikasi ini memiliki validasi input data yang mencakup berbagai hal guna menjag
 	DIAGNOSA: FLU
 	ADMISI (DD-MM-YYYY): 15-07-2024
 
-- Kontak 
+# Kontak 
 
 Untuk menyampaikan pertanyaan atau saran, dapat melayangkan email ke egifthahir@gmail.com 
